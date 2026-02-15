@@ -6,7 +6,7 @@ export function addStandardMeshes(){
     const material = new THREE.MeshStandardMaterial({
         color: 0xb873333,
         metalness: 1.0,
-        roughness: 0.95,
+        roughness: 0.35,
         //how strong colour is emitted
         emissive: 0x0a0a0a,
         emissiveIntensity: 0.2,

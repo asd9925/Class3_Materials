@@ -47,7 +47,7 @@ function init(){
 
   //Lights
   //colour and intensity as arguments
-  const keyLight = new THREE.DirectionalLight(0xfffff, 2)
+  const keyLight = new THREE.DirectionalLight(0xffffff, 2)
   keyLight.position.set(5, 5, 5);
   scene.add(keyLight)
   //add light beam to know where it comes from
